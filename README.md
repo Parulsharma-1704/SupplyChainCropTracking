@@ -1,0 +1,1 @@
+echo "# Supply Chain & Crop Tracking System with Price Prediction" 
