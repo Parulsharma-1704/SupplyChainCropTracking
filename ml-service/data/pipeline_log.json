@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-02-21T21:46:17.272621",
+  "steps_completed": [
+    {
+      "name": "Generate Data",
+      "status": "COMPLETED",
+      "timestamp": "2026-02-21T21:46:17.830646",
+      "details": {
+        "records_generated": 500,
+        "output_file": "data\\crop_prices_expanded.csv",
+        "date_range": "2024-02-22 to 2026-02-19"
+      }
+    },
+    {
+      "name": "Merge Data",
+      "status": "COMPLETED",
+      "timestamp": "2026-02-21T21:46:18.208989",
+      "details": {
+        "total_records": 522,
+        "original_records": 22,
+        "expansion": "500 records added",
+        "output_file": "data\\crop_prices_final.csv"
+      }
+    },
+    {
+      "name": "Validate Data",
+      "status": "COMPLETED",
+      "timestamp": "2026-02-21T21:46:18.493169",
+      "details": {
+        "records_after_cleaning": 490,
+        "issues_found": 2,
+        "issues_fixed": 2,
+        "report_file": "data\\validation_report.json"
+      }
+    },
+    {
+      "name": "Generate Statistics",
+      "status": "COMPLETED",
+      "timestamp": "2026-02-21T21:46:18.592689",
+      "details": {
+        "total_records": 490,
+        "unique_crops": 10,
+        "unique_regions": 6,
+        "statistics_file": "data\\dataset_statistics.json"
+      }
+    }
+  ],
+  "status": "completed"
+}

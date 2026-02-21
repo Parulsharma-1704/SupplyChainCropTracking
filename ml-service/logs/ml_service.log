@@ -1,0 +1,14 @@
+2026-02-15 00:08:59 - ml_service - WARNING - No trained model found. Please train first.
+2026-02-15 00:09:11 - ml_service - WARNING - No trained model found. Please train first.
+2026-02-15 00:10:53 - train_model - INFO - Loading data from data/crop_prices.csv
+2026-02-15 00:10:54 - train_model - INFO - Preprocessing data...
+2026-02-15 00:10:54 - train_model - INFO - Training model...
+2026-02-15 00:10:55 - train_model - INFO - Model training completed successfully!
+2026-02-15 00:12:21 - ml_service - INFO - ML model loaded successfully
+2026-02-15 00:12:27 - ml_service - INFO - ML model loaded successfully
+2026-02-15 00:20:45 - ml_service - INFO - Prediction request received: {'crop_type': 'Wheat', 'region': 'North', 'quality': 'Premium', 'quantity_kg': 1000}
+2026-02-15 00:20:51 - ml_service - INFO - Prediction result: {'success': True, 'predicted_price': 47.39, 'confidence': 0.85, 'method': 'ml_model', 'currency': 'INR', 'unit': 'per kg', 'total_value': 47390.18, 'total_value_unit': 'for 1000.0 kg', 'input_features': {'crop_type': 'Wheat', 'region': 'North', 'quality': 'Premium', 'quantity_kg': 1000.0, 'season': 'Winter', 'weather': 'Normal', 'market_demand': 'Medium', 'year': 2026, 'month': 2}, 'timestamp': '2026-02-15T00:20:51.028628'}
+2026-02-15 01:09:28 - ml_service - INFO - ML model loaded successfully
+2026-02-15 01:09:41 - ml_service - INFO - ML model loaded successfully
+2026-02-15 01:33:00 - ml_service - INFO - Prediction request received: {'crop_type': 'Wheat', 'region': 'North', 'quality': 'Premium', 'quantity_kg': 1000, 'season': 'Winter', 'weather': 'Normal', 'market_demand': 'Medium'}
+2026-02-15 01:33:02 - ml_service - INFO - Prediction result: {'success': True, 'predicted_price': 47.39, 'confidence': 0.85, 'method': 'ml_model', 'currency': 'INR', 'unit': 'per kg', 'total_value': 47390.18, 'total_value_unit': 'for 1000.0 kg', 'input_features': {'crop_type': 'Wheat', 'region': 'North', 'quality': 'Premium', 'quantity_kg': 1000.0, 'season': 'Winter', 'weather': 'Normal', 'market_demand': 'Medium', 'year': 2026, 'month': 2}, 'timestamp': '2026-02-15T01:33:02.794862'}

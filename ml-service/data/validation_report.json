@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-02-21T21:46:18.214410",
+  "checks": [
+    {
+      "name": "Missing Values",
+      "passed": false,
+      "details": [
+        "Column 'source' has 22 missing values (4.2%)"
+      ]
+    },
+    {
+      "name": "Duplicate Records",
+      "passed": true,
+      "details": [
+        "No duplicates found \u2713"
+      ]
+    },
+    {
+      "name": "Quantity Validity",
+      "passed": true,
+      "details": [
+        "All quantities are valid \u2713"
+      ]
+    },
+    {
+      "name": "Categorical Values",
+      "passed": true,
+      "details": [
+        "All categorical values are valid \u2713"
+      ]
+    },
+    {
+      "name": "Price Outliers",
+      "passed": false,
+      "details": [
+        "Found 32 price outliers (6.1%)",
+        "Example outliers: [122.41, 115.43, 114.58, 211.14, 122.49]",
+        "Removed 32 outliers \u2713"
+      ]
+    },
+    {
+      "name": "Data Distribution",
+      "passed": true,
+      "details": [
+        "Crop types distribution:",
+        "  - Wheat: 66 records (13.5%)",
+        "  - Soybean: 59 records (12.0%)",
+        "  - Corn: 54 records (11.0%)",
+        "  - Fruits: 54 records (11.0%)",
+        "  - Rice: 53 records (10.8%)",
+        "  - Cotton: 53 records (10.8%)",
+        "  - Sugarcane: 49 records (10.0%)",
+        "  - Vegetables: 47 records (9.6%)",
+        "  - Pulses: 33 records (6.7%)",
+        "  - Spices: 22 records (4.5%)"
+      ]
+    }
+  ],
+  "issues_found": 2,
+  "issues_fixed": 2,
+  "statistics": {
+    "total_records": 490,
+    "date_range": "2023-01-15 to 2026-02-19",
+    "price_statistics": {
+      "mean": 48.672816326530615,
+      "median": 44.295,
+      "std_dev": 20.196757353446788,
+      "min": 17.5,
+      "max": 112.33,
+      "q1": 32.9875,
+      "q3": 61.495
+    },
+    "quantity_statistics": {
+      "mean": 3502.6530612244896,
+      "median": 2000.0,
+      "min": 500.0,
+      "max": 10000.0
+    },
+    "unique_values": {
+      "crops": 10,
+      "regions": 6,
+      "qualities": 4,
+      "seasons": 5
+    }
+  }
+}

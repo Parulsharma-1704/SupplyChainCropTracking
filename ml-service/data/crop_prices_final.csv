@@ -1,0 +1,491 @@
+date,crop_type,region,quality,quantity_kg,market_price,season,weather,market_demand,source
+2023-01-15,Wheat,North,Premium,1000,45.5,Winter,Cold,High,
+2023-01-20,Wheat,North,Grade_A,1500,42.3,Winter,Cold,Medium,
+2023-02-10,Wheat,North,Premium,800,47.2,Winter,Rainy,High,
+2023-03-05,Wheat,North,Grade_B,2000,40.1,Spring,Sunny,Low,
+2023-03-20,Wheat,South,Premium,1200,48.5,Spring,Sunny,High,
+2023-04-15,Rice,East,Premium,900,65.2,Spring,Moderate,High,
+2023-04-25,Rice,East,Grade_A,1800,60.8,Spring,Rainy,Medium,
+2023-05-10,Rice,West,Premium,1100,68.9,Summer,Hot,High,
+2023-05-25,Corn,North,Grade_A,1400,35.2,Summer,Sunny,Medium,
+2023-06-15,Corn,South,Premium,1600,38.7,Summer,Hot,High,
+2023-07-10,Pulses,East,Grade_A,800,85.2,Monsoon,Rainy,High,
+2023-07-25,Pulses,West,Premium,900,88.5,Monsoon,Humid,Medium,
+2023-08-15,Vegetables,North,Premium,500,32.5,Monsoon,Rainy,High,
+2023-08-30,Vegetables,South,Grade_A,700,30.8,Monsoon,Humid,Medium,
+2023-09-15,Fruits,East,Premium,600,55.2,Autumn,Moderate,High,
+2023-09-30,Fruits,West,Grade_A,800,52.8,Autumn,Sunny,Medium,
+2023-10-15,Wheat,North,Premium,1300,46.8,Autumn,Cool,High,
+2023-10-30,Wheat,South,Grade_A,1700,44.2,Autumn,Cool,Medium,
+2023-11-15,Rice,East,Premium,1000,67.5,Winter,Cold,High,
+2023-11-30,Rice,West,Grade_A,1200,64.8,Winter,Cold,Medium,
+2023-12-15,Corn,North,Premium,1500,36.9,Winter,Cold,High,
+2023-12-30,Corn,South,Grade_A,1800,34.5,Winter,Cold,Medium,
+2024-02-22,Corn,East,Grade_B,1000,27.59,Winter,Humid,High,generated
+2024-02-26,Rice,Northeast,Grade_C,1000,32.5,Winter,Cloudy,Low,generated
+2024-02-27,Cotton,South,Premium,1500,111.52,Winter,Cloudy,Very High,generated
+2024-02-28,Sugarcane,East,Premium,2000,57.68,Winter,Cloudy,Medium,generated
+2024-02-28,Cotton,Northeast,Grade_A,3000,47.39,Winter,Sunny,Low,generated
+2024-02-28,Rice,West,Grade_B,1000,47.68,Winter,Sunny,Low,generated
+2024-02-29,Pulses,East,Grade_A,10000,79.77,Winter,Sunny,Medium,generated
+2024-03-05,Vegetables,South,Premium,5000,50.81,Spring,Moderate,High,generated
+2024-03-06,Soybean,North,Grade_B,800,44.9,Spring,Cloudy,High,generated
+2024-03-06,Rice,Central,Grade_B,800,47.4,Spring,Sunny,Medium,generated
+2024-03-08,Sugarcane,East,Grade_C,8000,20.37,Spring,Hot,Medium,generated
+2024-03-09,Cotton,West,Premium,10000,83.3,Spring,Rainy,Low,generated
+2024-03-12,Fruits,North,Grade_A,3000,72.02,Spring,Cold,Very High,generated
+2024-03-14,Pulses,South,Grade_A,8000,83.72,Spring,Sunny,High,generated
+2024-03-17,Wheat,East,Grade_A,1500,44.93,Spring,Rainy,High,generated
+2024-03-17,Sugarcane,East,Grade_C,500,20.0,Spring,Moderate,Very Low,generated
+2024-03-18,Soybean,South,Grade_B,10000,28.16,Spring,Hot,Very Low,generated
+2024-03-23,Cotton,Northeast,Grade_A,3000,61.86,Spring,Hot,Medium,generated
+2024-03-27,Soybean,West,Grade_B,800,36.84,Spring,Moderate,Low,generated
+2024-03-29,Rice,Central,Grade_A,3000,47.59,Spring,Humid,Very Low,generated
+2024-03-30,Soybean,West,Grade_B,800,44.26,Spring,Humid,Medium,generated
+2024-03-30,Spices,West,Grade_A,10000,112.33,Spring,Moderate,Medium,generated
+2024-03-30,Fruits,East,Grade_B,10000,55.17,Spring,Moderate,High,generated
+2024-04-03,Soybean,Northeast,Premium,8000,67.4,Spring,Rainy,High,generated
+2024-04-04,Wheat,Northeast,Grade_A,10000,49.36,Spring,Cold,High,generated
+2024-04-04,Vegetables,West,Grade_C,5000,18.57,Spring,Humid,Very High,generated
+2024-04-05,Fruits,Northeast,Grade_A,2000,63.83,Spring,Humid,Medium,generated
+2024-04-05,Corn,East,Grade_A,5000,29.35,Spring,Moderate,Low,generated
+2024-04-06,Rice,Central,Premium,8000,70.1,Spring,Sunny,Medium,generated
+2024-04-09,Corn,South,Grade_C,5000,24.61,Spring,Cold,Very High,generated
+2024-04-09,Rice,North,Grade_B,8000,32.57,Spring,Moderate,Very Low,generated
+2024-04-10,Pulses,Central,Grade_A,10000,61.82,Spring,Cold,Very Low,generated
+2024-04-10,Wheat,North,Premium,500,56.02,Spring,Cloudy,High,generated
+2024-04-11,Rice,Central,Grade_C,8000,32.5,Spring,Hot,Very Low,generated
+2024-04-11,Cotton,Northeast,Grade_A,8000,66.88,Spring,Rainy,High,generated
+2024-04-13,Sugarcane,East,Grade_B,5000,20.76,Spring,Humid,Very Low,generated
+2024-04-14,Corn,East,Grade_A,1000,25.79,Spring,Cloudy,Very Low,generated
+2024-04-16,Cotton,Central,Premium,5000,84.04,Spring,Hot,High,generated
+2024-04-18,Wheat,Central,Premium,1500,44.32,Spring,Hot,Low,generated
+2024-04-18,Sugarcane,East,Premium,500,49.58,Spring,Sunny,Medium,generated
+2024-04-18,Cotton,Northeast,Grade_B,1500,65.83,Spring,Hot,Very High,generated
+2024-04-19,Cotton,North,Grade_B,3000,52.36,Spring,Humid,High,generated
+2024-04-19,Pulses,North,Grade_A,8000,69.69,Spring,Cold,Low,generated
+2024-04-21,Cotton,Northeast,Grade_A,1000,69.12,Spring,Humid,High,generated
+2024-04-23,Wheat,South,Grade_A,3000,33.86,Spring,Rainy,Low,generated
+2024-04-25,Soybean,Northeast,Grade_B,500,37.82,Spring,Moderate,High,generated
+2024-04-26,Corn,South,Grade_B,8000,29.3,Spring,Cold,High,generated
+2024-04-28,Soybean,South,Grade_B,8000,39.27,Spring,Cold,High,generated
+2024-04-29,Cotton,North,Premium,5000,82.38,Spring,Cold,Medium,generated
+2024-05-02,Vegetables,East,Grade_B,500,25.82,Spring,Sunny,High,generated
+2024-05-03,Sugarcane,Northeast,Grade_B,10000,25.24,Spring,Hot,Medium,generated
+2024-05-06,Wheat,East,Grade_B,1000,22.5,Spring,Humid,Very Low,generated
+2024-05-08,Soybean,North,Grade_A,3000,38.6,Spring,Rainy,Low,generated
+2024-05-09,Fruits,East,Grade_B,500,55.39,Spring,Hot,High,generated
+2024-05-10,Rice,North,Premium,1000,74.36,Spring,Moderate,Very Low,generated
+2024-05-13,Fruits,West,Grade_C,1000,35.77,Spring,Moderate,Low,generated
+2024-05-13,Fruits,North,Premium,800,100.9,Spring,Moderate,Very High,generated
+2024-05-15,Soybean,East,Grade_B,500,32.35,Spring,Rainy,Low,generated
+2024-05-17,Cotton,Northeast,Grade_A,2000,63.82,Spring,Cloudy,Medium,generated
+2024-05-17,Wheat,Northeast,Grade_B,3000,24.4,Spring,Cloudy,Very Low,generated
+2024-05-18,Sugarcane,West,Grade_B,8000,34.9,Spring,Cold,Very High,generated
+2024-05-22,Rice,Northeast,Premium,5000,62.95,Spring,Hot,Low,generated
+2024-05-28,Cotton,North,Grade_A,8000,43.97,Spring,Cold,Very Low,generated
+2024-05-29,Soybean,North,Premium,3000,68.65,Spring,Rainy,High,generated
+2024-05-30,Sugarcane,Central,Premium,500,58.78,Spring,Sunny,High,generated
+2024-06-02,Fruits,Central,Grade_A,1500,35.58,Monsoon,Hot,Low,generated
+2024-06-02,Vegetables,West,Grade_B,3000,23.1,Monsoon,Cold,Low,generated
+2024-06-03,Wheat,North,Grade_A,5000,44.27,Monsoon,Hot,Medium,generated
+2024-06-03,Pulses,North,Grade_A,2000,83.76,Monsoon,Rainy,High,generated
+2024-06-05,Cotton,Northeast,Premium,1500,56.75,Monsoon,Humid,Medium,generated
+2024-06-05,Corn,Central,Grade_A,5000,40.29,Monsoon,Moderate,Very High,generated
+2024-06-06,Soybean,Northeast,Grade_B,10000,37.37,Monsoon,Moderate,Medium,generated
+2024-06-07,Vegetables,North,Grade_B,3000,20.35,Monsoon,Sunny,Very High,generated
+2024-06-16,Rice,North,Grade_A,10000,62.57,Monsoon,Humid,Very High,generated
+2024-06-16,Cotton,South,Grade_B,5000,30.0,Monsoon,Sunny,Low,generated
+2024-06-17,Rice,Northeast,Grade_A,500,50.51,Monsoon,Humid,Low,generated
+2024-06-18,Wheat,East,Premium,2000,67.37,Monsoon,Cold,Medium,generated
+2024-06-18,Soybean,Central,Grade_B,8000,40.43,Monsoon,Rainy,High,generated
+2024-06-20,Corn,West,Grade_B,500,22.33,Monsoon,Hot,Very Low,generated
+2024-06-23,Corn,South,Grade_A,10000,29.22,Monsoon,Hot,Low,generated
+2024-06-24,Corn,South,Grade_A,3000,34.91,Monsoon,Cloudy,Low,generated
+2024-06-26,Sugarcane,Central,Grade_C,5000,20.0,Monsoon,Cold,Very Low,generated
+2024-06-27,Spices,Central,Grade_A,800,111.46,Monsoon,Cloudy,Low,generated
+2024-06-29,Fruits,East,Grade_A,10000,42.46,Monsoon,Sunny,Medium,generated
+2024-07-02,Corn,North,Grade_B,800,24.36,Monsoon,Cloudy,Low,generated
+2024-07-03,Pulses,South,Grade_B,500,48.18,Monsoon,Rainy,Very Low,generated
+2024-07-05,Pulses,North,Grade_B,5000,72.58,Monsoon,Rainy,High,generated
+2024-07-05,Pulses,Central,Grade_A,1500,68.82,Monsoon,Cloudy,Low,generated
+2024-07-07,Fruits,West,Grade_A,2000,62.56,Monsoon,Rainy,High,generated
+2024-07-08,Soybean,Central,Grade_A,500,56.67,Monsoon,Humid,Medium,generated
+2024-07-09,Sugarcane,North,Grade_C,500,24.57,Monsoon,Hot,Very High,generated
+2024-07-12,Rice,Northeast,Grade_B,5000,34.95,Monsoon,Cloudy,Very Low,generated
+2024-07-13,Wheat,West,Premium,500,91.14,Monsoon,Cold,High,generated
+2024-07-13,Sugarcane,South,Grade_B,1000,25.76,Monsoon,Sunny,Low,generated
+2024-07-18,Sugarcane,East,Grade_B,2000,23.41,Monsoon,Rainy,Low,generated
+2024-07-20,Vegetables,East,Premium,5000,23.6,Monsoon,Sunny,Very Low,generated
+2024-07-22,Pulses,Central,Grade_C,500,48.97,Monsoon,Moderate,Medium,generated
+2024-07-22,Wheat,North,Grade_B,1500,39.53,Monsoon,Moderate,Medium,generated
+2024-07-23,Rice,South,Grade_A,500,36.63,Monsoon,Humid,Very Low,generated
+2024-07-24,Sugarcane,West,Grade_A,1000,48.74,Monsoon,Humid,High,generated
+2024-07-27,Cotton,West,Grade_A,3000,47.71,Monsoon,Rainy,Low,generated
+2024-07-28,Cotton,West,Grade_A,1000,57.64,Monsoon,Rainy,High,generated
+2024-07-28,Cotton,East,Grade_B,3000,38.78,Monsoon,Hot,High,generated
+2024-07-29,Fruits,West,Grade_A,1000,38.3,Monsoon,Moderate,Medium,generated
+2024-07-29,Sugarcane,Central,Grade_B,1500,26.41,Monsoon,Sunny,Medium,generated
+2024-07-31,Soybean,South,Grade_B,10000,37.59,Monsoon,Rainy,Medium,generated
+2024-08-03,Sugarcane,South,Grade_C,5000,26.6,Monsoon,Rainy,Very High,generated
+2024-08-04,Wheat,East,Grade_C,8000,22.5,Monsoon,Sunny,Very Low,generated
+2024-08-06,Pulses,West,Grade_B,500,82.48,Monsoon,Humid,High,generated
+2024-08-06,Soybean,North,Grade_A,500,39.18,Monsoon,Cold,Very Low,generated
+2024-08-07,Cotton,East,Grade_A,500,45.7,Monsoon,Cloudy,Low,generated
+2024-08-09,Wheat,South,Premium,2000,48.29,Monsoon,Humid,Very Low,generated
+2024-08-10,Pulses,West,Grade_B,1500,61.73,Monsoon,Cloudy,Low,generated
+2024-08-11,Spices,West,Grade_B,1500,111.14,Monsoon,Cold,Medium,generated
+2024-08-11,Rice,North,Premium,3000,49.19,Monsoon,Cloudy,Very Low,generated
+2024-08-13,Sugarcane,East,Grade_B,5000,23.34,Monsoon,Moderate,Low,generated
+2024-08-14,Rice,Northeast,Grade_B,1500,32.5,Monsoon,Hot,Very Low,generated
+2024-08-16,Cotton,East,Grade_B,10000,30.0,Monsoon,Moderate,Medium,generated
+2024-08-16,Spices,East,Grade_A,1500,90.95,Monsoon,Sunny,Low,generated
+2024-08-16,Sugarcane,East,Grade_A,8000,25.7,Monsoon,Humid,Very Low,generated
+2024-08-17,Cotton,North,Premium,10000,59.98,Monsoon,Moderate,Very Low,generated
+2024-08-17,Pulses,Central,Grade_B,5000,68.26,Monsoon,Humid,Medium,generated
+2024-08-17,Pulses,East,Grade_A,8000,82.03,Monsoon,Hot,Medium,generated
+2024-08-19,Cotton,Central,Grade_A,3000,57.78,Monsoon,Cloudy,Medium,generated
+2024-08-21,Fruits,East,Premium,5000,56.06,Monsoon,Rainy,High,generated
+2024-08-24,Sugarcane,East,Grade_C,5000,20.0,Monsoon,Hot,Very Low,generated
+2024-08-25,Rice,North,Grade_A,1500,72.77,Monsoon,Moderate,Very High,generated
+2024-08-27,Cotton,Northeast,Grade_A,500,61.8,Monsoon,Rainy,High,generated
+2024-08-28,Rice,North,Grade_C,1000,32.5,Monsoon,Moderate,High,generated
+2024-08-29,Fruits,Northeast,Grade_B,2000,29.95,Monsoon,Sunny,Very Low,generated
+2024-08-29,Corn,Northeast,Grade_B,5000,23.6,Monsoon,Sunny,Low,generated
+2024-09-02,Wheat,West,Premium,1000,71.61,Autumn,Cloudy,High,generated
+2024-09-02,Corn,South,Grade_B,1500,33.72,Autumn,Hot,High,generated
+2024-09-02,Fruits,Northeast,Premium,1500,61.46,Autumn,Cold,Very Low,generated
+2024-09-03,Soybean,Central,Premium,2000,55.55,Autumn,Cloudy,Low,generated
+2024-09-06,Sugarcane,East,Grade_A,1000,41.35,Autumn,Cold,Medium,generated
+2024-09-08,Wheat,Central,Grade_A,3000,46.81,Autumn,Hot,High,generated
+2024-09-09,Corn,Northeast,Grade_A,5000,40.04,Autumn,Humid,Very High,generated
+2024-09-10,Fruits,Central,Grade_C,800,27.5,Autumn,Moderate,High,generated
+2024-09-10,Rice,North,Grade_B,500,66.27,Autumn,Hot,Very High,generated
+2024-09-10,Wheat,Central,Grade_C,800,36.64,Autumn,Moderate,Very High,generated
+2024-09-12,Soybean,South,Grade_A,1000,56.57,Autumn,Moderate,High,generated
+2024-09-16,Fruits,West,Premium,2000,72.91,Autumn,Hot,Medium,generated
+2024-09-17,Soybean,North,Premium,3000,59.64,Autumn,Cold,Medium,generated
+2024-09-18,Fruits,South,Grade_A,10000,68.0,Autumn,Sunny,High,generated
+2024-09-21,Vegetables,Central,Grade_B,1500,22.08,Autumn,Humid,Very Low,generated
+2024-09-21,Vegetables,Northeast,Grade_B,1000,27.34,Autumn,Rainy,Low,generated
+2024-09-23,Soybean,North,Premium,1000,67.07,Autumn,Cold,Medium,generated
+2024-09-23,Soybean,East,Grade_A,3000,40.92,Autumn,Moderate,Medium,generated
+2024-09-24,Spices,Northeast,Grade_B,1000,94.2,Autumn,Sunny,Low,generated
+2024-09-26,Vegetables,Northeast,Premium,3000,66.05,Autumn,Cold,Very High,generated
+2024-09-28,Soybean,South,Grade_A,3000,64.04,Autumn,Humid,High,generated
+2024-10-01,Wheat,East,Grade_A,2000,40.07,Autumn,Moderate,Medium,generated
+2024-10-01,Pulses,West,Grade_A,10000,68.43,Autumn,Moderate,Very Low,generated
+2024-10-03,Corn,Northeast,Grade_C,800,20.24,Autumn,Cloudy,Medium,generated
+2024-10-04,Vegetables,Northeast,Grade_B,5000,32.66,Autumn,Sunny,Medium,generated
+2024-10-04,Vegetables,West,Grade_A,10000,47.58,Autumn,Hot,Medium,generated
+2024-10-05,Corn,North,Grade_A,1500,33.53,Autumn,Hot,Medium,generated
+2024-10-05,Vegetables,West,Premium,800,42.37,Autumn,Cloudy,Medium,generated
+2024-10-10,Sugarcane,Central,Premium,8000,49.75,Autumn,Cloudy,Medium,generated
+2024-10-10,Vegetables,East,Grade_A,1500,35.46,Autumn,Sunny,High,generated
+2024-10-14,Soybean,East,Grade_A,800,47.61,Autumn,Humid,Medium,generated
+2024-10-16,Rice,North,Grade_B,3000,38.17,Autumn,Hot,Low,generated
+2024-10-20,Sugarcane,Central,Grade_A,500,50.61,Autumn,Humid,Very High,generated
+2024-10-21,Soybean,Northeast,Premium,10000,49.48,Autumn,Moderate,Very Low,generated
+2024-10-22,Vegetables,West,Grade_A,2000,42.63,Autumn,Cloudy,Medium,generated
+2024-10-23,Pulses,Northeast,Grade_C,8000,42.5,Autumn,Humid,Very Low,generated
+2024-10-26,Cotton,South,Grade_C,10000,33.95,Autumn,Cold,Medium,generated
+2024-10-26,Corn,East,Premium,8000,37.57,Autumn,Cold,Low,generated
+2024-10-28,Soybean,West,Grade_B,1500,41.53,Autumn,Hot,High,generated
+2024-10-30,Pulses,South,Grade_C,1000,46.55,Autumn,Rainy,Medium,generated
+2024-10-30,Corn,South,Grade_C,3000,19.8,Autumn,Cloudy,Medium,generated
+2024-10-30,Rice,West,Premium,5000,83.04,Autumn,Rainy,Low,generated
+2024-11-03,Fruits,Northeast,Grade_C,1500,36.41,Autumn,Sunny,High,generated
+2024-11-03,Pulses,West,Grade_B,5000,60.58,Autumn,Sunny,Low,generated
+2024-11-03,Wheat,East,Grade_C,10000,29.87,Autumn,Sunny,Very High,generated
+2024-11-06,Wheat,West,Grade_A,8000,51.38,Autumn,Cloudy,Low,generated
+2024-11-06,Vegetables,Northeast,Grade_B,8000,30.73,Autumn,Cold,Medium,generated
+2024-11-08,Rice,East,Grade_C,8000,32.93,Autumn,Rainy,Low,generated
+2024-11-09,Spices,West,Grade_C,3000,73.69,Autumn,Rainy,High,generated
+2024-11-20,Fruits,North,Premium,10000,62.16,Autumn,Moderate,Medium,generated
+2024-11-22,Corn,Central,Grade_A,5000,35.81,Autumn,Rainy,High,generated
+2024-11-28,Wheat,East,Premium,5000,65.69,Autumn,Cloudy,High,generated
+2024-12-01,Rice,East,Premium,500,90.13,Winter,Sunny,Medium,generated
+2024-12-02,Wheat,South,Grade_B,3000,30.97,Winter,Sunny,Medium,generated
+2024-12-07,Wheat,South,Grade_B,5000,43.27,Winter,Cloudy,High,generated
+2024-12-09,Pulses,East,Grade_A,800,102.11,Winter,Hot,High,generated
+2024-12-10,Wheat,North,Grade_B,10000,24.69,Winter,Cold,Very Low,generated
+2024-12-10,Sugarcane,South,Grade_C,10000,27.52,Winter,Moderate,Medium,generated
+2024-12-12,Soybean,South,Premium,8000,74.89,Winter,Cloudy,High,generated
+2024-12-13,Sugarcane,Northeast,Grade_A,8000,44.17,Winter,Cloudy,Low,generated
+2024-12-14,Fruits,East,Grade_A,5000,56.31,Winter,Sunny,Medium,generated
+2024-12-15,Spices,Northeast,Grade_A,800,84.65,Winter,Sunny,Very Low,generated
+2024-12-16,Cotton,Central,Grade_A,500,46.28,Winter,Rainy,Low,generated
+2024-12-16,Soybean,North,Grade_B,10000,33.97,Winter,Rainy,Low,generated
+2024-12-20,Sugarcane,North,Premium,2000,44.5,Winter,Cold,Very Low,generated
+2024-12-21,Pulses,Northeast,Premium,10000,89.7,Winter,Cloudy,Very Low,generated
+2024-12-21,Rice,Central,Grade_C,2000,37.67,Winter,Humid,High,generated
+2024-12-23,Vegetables,South,Grade_C,2000,34.22,Winter,Sunny,Medium,generated
+2024-12-24,Soybean,North,Premium,500,70.78,Winter,Cloudy,Medium,generated
+2024-12-28,Rice,South,Grade_B,5000,49.14,Winter,Cloudy,High,generated
+2024-12-30,Wheat,Central,Grade_A,1500,37.15,Winter,Cold,Low,generated
+2024-12-31,Rice,South,Premium,500,63.27,Winter,Cold,Very Low,generated
+2025-01-01,Spices,West,Grade_B,500,80.95,Winter,Cloudy,Medium,generated
+2025-01-03,Sugarcane,Northeast,Grade_B,1500,40.02,Winter,Humid,Medium,generated
+2025-01-07,Sugarcane,East,Grade_A,5000,50.29,Winter,Hot,Medium,generated
+2025-01-09,Sugarcane,West,Premium,1000,74.62,Winter,Cloudy,High,generated
+2025-01-10,Soybean,East,Grade_B,3000,37.36,Winter,Sunny,High,generated
+2025-01-11,Soybean,East,Grade_B,5000,33.51,Winter,Moderate,Low,generated
+2025-01-13,Vegetables,Northeast,Grade_B,2000,33.81,Winter,Rainy,High,generated
+2025-01-16,Soybean,West,Grade_B,500,33.54,Winter,Cloudy,Low,generated
+2025-01-18,Vegetables,Central,Grade_A,3000,28.58,Winter,Cloudy,Medium,generated
+2025-01-25,Rice,North,Premium,5000,58.13,Winter,Cloudy,Medium,generated
+2025-01-27,Pulses,South,Grade_B,10000,64.79,Winter,Cold,High,generated
+2025-01-27,Wheat,Central,Grade_A,8000,32.06,Winter,Hot,Very Low,generated
+2025-01-28,Rice,Central,Grade_B,3000,53.15,Winter,Humid,Medium,generated
+2025-01-30,Rice,Northeast,Grade_A,1500,64.39,Winter,Humid,High,generated
+2025-01-30,Wheat,Northeast,Premium,2000,43.82,Winter,Sunny,Very Low,generated
+2025-02-03,Rice,North,Grade_B,1500,54.86,Winter,Sunny,High,generated
+2025-02-03,Fruits,South,Grade_A,500,68.43,Winter,Rainy,High,generated
+2025-02-04,Fruits,North,Grade_A,1500,52.91,Winter,Humid,Low,generated
+2025-02-07,Fruits,West,Grade_C,500,31.71,Winter,Rainy,Very Low,generated
+2025-02-09,Fruits,West,Grade_A,800,59.74,Winter,Sunny,Medium,generated
+2025-02-09,Corn,South,Grade_A,800,37.8,Winter,Humid,Medium,generated
+2025-02-11,Fruits,East,Premium,3000,68.87,Winter,Cloudy,Low,generated
+2025-02-14,Rice,South,Grade_B,1000,47.63,Winter,Humid,Medium,generated
+2025-02-14,Sugarcane,North,Grade_B,10000,30.82,Winter,Sunny,Low,generated
+2025-02-15,Cotton,North,Grade_B,8000,50.31,Winter,Rainy,High,generated
+2025-02-18,Spices,East,Grade_A,2000,88.22,Winter,Cold,Medium,generated
+2025-02-20,Vegetables,Central,Grade_A,5000,34.58,Winter,Sunny,High,generated
+2025-02-20,Wheat,Central,Grade_A,8000,48.69,Winter,Moderate,High,generated
+2025-02-20,Spices,South,Grade_B,10000,77.13,Winter,Humid,Low,generated
+2025-02-21,Rice,Northeast,Premium,5000,86.02,Winter,Humid,Medium,generated
+2025-02-22,Corn,Central,Premium,2000,38.41,Winter,Moderate,Low,generated
+2025-02-23,Corn,East,Grade_C,2000,17.5,Winter,Hot,Medium,generated
+2025-02-24,Fruits,South,Grade_B,1000,50.48,Winter,Sunny,Low,generated
+2025-02-27,Rice,East,Grade_C,1500,32.5,Winter,Cold,Very Low,generated
+2025-02-28,Soybean,West,Grade_B,3000,29.6,Winter,Humid,Low,generated
+2025-03-01,Vegetables,Central,Grade_A,3000,22.65,Spring,Moderate,Very Low,generated
+2025-03-03,Cotton,Central,Grade_C,2000,31.97,Spring,Hot,Low,generated
+2025-03-05,Vegetables,Central,Grade_A,5000,23.36,Spring,Humid,Very Low,generated
+2025-03-05,Wheat,East,Grade_B,5000,32.85,Spring,Sunny,Medium,generated
+2025-03-10,Wheat,South,Grade_A,1000,35.49,Spring,Hot,Low,generated
+2025-03-12,Spices,North,Grade_B,800,107.82,Spring,Humid,Medium,generated
+2025-03-14,Cotton,South,Grade_B,1500,61.5,Spring,Humid,High,generated
+2025-03-16,Pulses,West,Grade_A,1500,85.35,Spring,Cold,Low,generated
+2025-03-19,Corn,West,Grade_B,800,21.45,Spring,Hot,Very Low,generated
+2025-03-19,Corn,North,Premium,8000,41.89,Spring,Moderate,Medium,generated
+2025-03-20,Fruits,West,Grade_C,3000,32.43,Spring,Humid,Medium,generated
+2025-03-23,Corn,South,Grade_A,500,45.42,Spring,Sunny,High,generated
+2025-03-23,Cotton,South,Premium,1500,111.82,Spring,Sunny,High,generated
+2025-03-26,Pulses,Central,Grade_A,5000,72.58,Spring,Cloudy,Medium,generated
+2025-03-29,Wheat,Northeast,Grade_B,1000,38.5,Spring,Hot,High,generated
+2025-03-30,Sugarcane,South,Premium,500,41.11,Spring,Cloudy,Very Low,generated
+2025-04-01,Corn,West,Grade_C,5000,23.59,Spring,Humid,High,generated
+2025-04-02,Soybean,South,Grade_B,5000,32.14,Spring,Hot,Low,generated
+2025-04-03,Sugarcane,Central,Grade_B,1000,25.25,Spring,Humid,Low,generated
+2025-04-07,Vegetables,South,Grade_B,1500,21.77,Spring,Sunny,Very Low,generated
+2025-04-08,Wheat,Central,Grade_A,1500,42.57,Spring,Cold,Medium,generated
+2025-04-08,Corn,Northeast,Grade_B,5000,27.76,Spring,Rainy,High,generated
+2025-04-09,Pulses,Northeast,Grade_A,2000,74.4,Spring,Humid,Very Low,generated
+2025-04-10,Fruits,South,Grade_B,1000,62.41,Spring,Cloudy,Very High,generated
+2025-04-12,Pulses,West,Grade_A,3000,81.16,Spring,Sunny,Medium,generated
+2025-04-13,Vegetables,Central,Grade_B,1000,21.5,Spring,Moderate,Medium,generated
+2025-04-17,Wheat,West,Grade_C,2000,22.5,Spring,Cold,Very Low,generated
+2025-04-20,Corn,Northeast,Grade_A,10000,45.19,Spring,Humid,Very High,generated
+2025-04-26,Corn,South,Grade_A,500,30.73,Spring,Hot,Low,generated
+2025-04-27,Vegetables,East,Grade_B,10000,24.22,Spring,Rainy,Medium,generated
+2025-04-28,Cotton,West,Grade_A,5000,68.84,Spring,Rainy,Medium,generated
+2025-04-28,Soybean,Central,Grade_C,5000,26.09,Spring,Rainy,High,generated
+2025-05-01,Cotton,Northeast,Premium,5000,95.99,Spring,Moderate,High,generated
+2025-05-01,Wheat,West,Grade_B,3000,41.86,Spring,Cold,High,generated
+2025-05-02,Vegetables,East,Grade_B,10000,21.0,Spring,Humid,Medium,generated
+2025-05-05,Cotton,North,Grade_A,10000,60.99,Spring,Humid,Medium,generated
+2025-05-05,Fruits,East,Grade_A,1000,80.53,Spring,Humid,Very High,generated
+2025-05-06,Soybean,West,Grade_A,3000,51.81,Spring,Sunny,Medium,generated
+2025-05-06,Rice,Central,Grade_A,1000,72.16,Spring,Cold,Medium,generated
+2025-05-08,Corn,Northeast,Grade_A,1000,36.48,Spring,Humid,High,generated
+2025-05-09,Fruits,North,Grade_A,2000,69.78,Spring,Rainy,High,generated
+2025-05-09,Soybean,Central,Grade_A,800,36.2,Spring,Sunny,Very Low,generated
+2025-05-10,Spices,Central,Grade_B,8000,60.0,Spring,Moderate,Medium,generated
+2025-05-10,Wheat,North,Grade_B,5000,22.5,Spring,Sunny,Very Low,generated
+2025-05-14,Pulses,South,Grade_A,2000,98.69,Spring,Rainy,Medium,generated
+2025-05-21,Fruits,West,Grade_A,2000,51.15,Spring,Moderate,Medium,generated
+2025-05-24,Pulses,North,Grade_A,800,74.74,Spring,Moderate,Medium,generated
+2025-05-28,Soybean,North,Grade_A,3000,51.93,Spring,Rainy,Medium,generated
+2025-05-28,Cotton,Northeast,Premium,1500,97.79,Spring,Moderate,High,generated
+2025-05-29,Spices,East,Grade_B,8000,74.91,Spring,Sunny,Low,generated
+2025-05-30,Vegetables,East,Grade_C,800,20.31,Spring,Humid,Low,generated
+2025-05-31,Soybean,South,Grade_A,2000,44.51,Spring,Rainy,Very Low,generated
+2025-05-31,Vegetables,South,Grade_A,3000,42.86,Spring,Rainy,High,generated
+2025-05-31,Soybean,Northeast,Grade_B,10000,28.09,Spring,Moderate,Very Low,generated
+2025-06-01,Corn,West,Grade_C,10000,17.84,Monsoon,Cold,Low,generated
+2025-06-01,Fruits,West,Grade_A,800,47.73,Monsoon,Moderate,Low,generated
+2025-06-01,Cotton,North,Grade_C,10000,30.8,Monsoon,Moderate,High,generated
+2025-06-01,Wheat,Central,Grade_A,800,46.51,Monsoon,Sunny,Low,generated
+2025-06-07,Sugarcane,West,Premium,8000,50.64,Monsoon,Hot,Medium,generated
+2025-06-08,Fruits,West,Grade_A,3000,40.41,Monsoon,Cloudy,Very Low,generated
+2025-06-08,Fruits,West,Grade_B,8000,40.48,Monsoon,Sunny,High,generated
+2025-06-15,Soybean,West,Grade_B,1000,42.99,Monsoon,Moderate,Medium,generated
+2025-06-19,Cotton,Central,Premium,5000,80.89,Monsoon,Moderate,High,generated
+2025-06-21,Corn,Northeast,Grade_A,1000,32.51,Monsoon,Rainy,Low,generated
+2025-06-21,Sugarcane,Northeast,Grade_A,2000,44.81,Monsoon,Sunny,High,generated
+2025-06-22,Cotton,West,Grade_A,5000,65.37,Monsoon,Rainy,Medium,generated
+2025-06-24,Wheat,South,Grade_B,1000,29.86,Monsoon,Cloudy,Very Low,generated
+2025-06-26,Cotton,Central,Grade_A,500,41.71,Monsoon,Hot,Very Low,generated
+2025-06-27,Sugarcane,West,Grade_A,2000,46.19,Monsoon,Sunny,High,generated
+2025-06-27,Pulses,North,Grade_A,3000,99.69,Monsoon,Cloudy,Medium,generated
+2025-06-28,Sugarcane,East,Grade_A,2000,41.09,Monsoon,Cloudy,Medium,generated
+2025-06-29,Fruits,South,Premium,10000,69.64,Monsoon,Humid,High,generated
+2025-06-29,Wheat,Central,Grade_A,500,48.46,Monsoon,Rainy,Medium,generated
+2025-06-30,Corn,Northeast,Premium,5000,39.41,Monsoon,Cold,Low,generated
+2025-07-01,Sugarcane,Northeast,Grade_B,1000,38.54,Monsoon,Rainy,Very High,generated
+2025-07-02,Cotton,Central,Grade_B,500,30.0,Monsoon,Cloudy,Very Low,generated
+2025-07-02,Corn,Northeast,Premium,5000,43.34,Monsoon,Humid,Low,generated
+2025-07-02,Sugarcane,West,Grade_B,2000,26.28,Monsoon,Humid,Low,generated
+2025-07-05,Soybean,Northeast,Grade_B,800,41.97,Monsoon,Cloudy,High,generated
+2025-07-06,Soybean,South,Grade_B,800,38.8,Monsoon,Cloudy,High,generated
+2025-07-08,Rice,Northeast,Premium,1500,67.44,Monsoon,Cloudy,Very Low,generated
+2025-07-11,Soybean,Northeast,Premium,5000,64.94,Monsoon,Cloudy,Medium,generated
+2025-07-13,Vegetables,Northeast,Premium,10000,30.06,Monsoon,Sunny,Low,generated
+2025-07-13,Sugarcane,South,Grade_A,2000,38.89,Monsoon,Rainy,Low,generated
+2025-07-15,Sugarcane,North,Grade_A,10000,34.03,Monsoon,Sunny,Low,generated
+2025-07-16,Corn,East,Grade_A,2000,29.84,Monsoon,Cloudy,Low,generated
+2025-07-17,Wheat,South,Grade_A,8000,67.11,Monsoon,Humid,High,generated
+2025-07-21,Corn,Northeast,Grade_B,1500,23.32,Monsoon,Humid,Low,generated
+2025-07-23,Wheat,West,Grade_A,2000,52.1,Monsoon,Rainy,Low,generated
+2025-07-24,Rice,Central,Premium,8000,66.21,Monsoon,Humid,Medium,generated
+2025-07-24,Pulses,East,Grade_B,10000,76.59,Monsoon,Hot,High,generated
+2025-07-24,Soybean,South,Grade_B,8000,41.49,Monsoon,Rainy,High,generated
+2025-07-25,Soybean,North,Grade_A,10000,32.05,Monsoon,Cloudy,Low,generated
+2025-07-27,Rice,South,Grade_A,1500,85.55,Monsoon,Cold,High,generated
+2025-07-29,Soybean,Central,Grade_A,3000,50.99,Monsoon,Cold,High,generated
+2025-07-30,Fruits,Central,Premium,3000,51.8,Monsoon,Cold,Low,generated
+2025-07-31,Rice,Central,Grade_C,5000,32.5,Monsoon,Hot,Medium,generated
+2025-08-04,Wheat,South,Grade_B,800,33.42,Monsoon,Rainy,Low,generated
+2025-08-05,Corn,South,Premium,1000,44.04,Monsoon,Cloudy,Low,generated
+2025-08-06,Sugarcane,Northeast,Grade_B,2000,31.22,Monsoon,Hot,Medium,generated
+2025-08-09,Vegetables,North,Grade_A,1500,29.44,Monsoon,Hot,Medium,generated
+2025-08-10,Rice,Central,Grade_C,1000,32.5,Monsoon,Moderate,Low,generated
+2025-08-13,Vegetables,Northeast,Premium,8000,29.3,Monsoon,Cloudy,High,generated
+2025-08-13,Spices,West,Grade_B,5000,104.08,Monsoon,Hot,Very High,generated
+2025-08-16,Vegetables,South,Grade_A,2000,23.78,Monsoon,Moderate,Low,generated
+2025-08-16,Cotton,Northeast,Grade_B,2000,50.14,Monsoon,Moderate,High,generated
+2025-08-18,Wheat,North,Grade_A,10000,55.05,Monsoon,Cold,High,generated
+2025-08-22,Wheat,East,Grade_B,10000,27.16,Monsoon,Rainy,Very Low,generated
+2025-08-22,Corn,Northeast,Premium,1500,43.3,Monsoon,Sunny,Medium,generated
+2025-08-22,Corn,South,Premium,2000,49.24,Monsoon,Cold,Medium,generated
+2025-08-24,Cotton,Central,Grade_B,1500,41.6,Monsoon,Cloudy,High,generated
+2025-08-24,Sugarcane,North,Premium,5000,49.06,Monsoon,Cold,High,generated
+2025-08-25,Soybean,West,Grade_B,2000,40.99,Monsoon,Hot,High,generated
+2025-08-25,Wheat,Central,Grade_C,500,30.02,Monsoon,Rainy,Medium,generated
+2025-08-28,Fruits,West,Grade_A,3000,47.36,Monsoon,Cloudy,Low,generated
+2025-08-30,Fruits,Northeast,Grade_C,1500,27.5,Monsoon,Humid,Low,generated
+2025-08-30,Vegetables,Northeast,Grade_A,800,34.29,Monsoon,Sunny,Very High,generated
+2025-08-30,Fruits,Central,Premium,10000,61.48,Monsoon,Cloudy,Medium,generated
+2025-09-01,Soybean,West,Grade_A,500,39.56,Autumn,Sunny,Very Low,generated
+2025-09-02,Cotton,West,Premium,3000,102.93,Autumn,Cold,High,generated
+2025-09-03,Rice,Central,Grade_C,5000,46.92,Autumn,Cloudy,Very High,generated
+2025-09-03,Corn,Central,Grade_C,8000,19.3,Autumn,Hot,Medium,generated
+2025-09-07,Vegetables,Northeast,Grade_B,1000,26.88,Autumn,Cloudy,High,generated
+2025-09-12,Sugarcane,North,Premium,800,46.93,Autumn,Hot,Low,generated
+2025-09-18,Corn,South,Grade_C,800,23.93,Autumn,Hot,High,generated
+2025-09-20,Vegetables,South,Premium,5000,41.63,Autumn,Hot,Low,generated
+2025-09-20,Wheat,South,Grade_C,800,22.5,Autumn,Sunny,Very Low,generated
+2025-09-21,Soybean,South,Grade_A,1000,55.29,Autumn,Sunny,High,generated
+2025-09-24,Wheat,West,Grade_B,1500,39.17,Autumn,Moderate,Low,generated
+2025-09-24,Wheat,Central,Premium,800,79.97,Autumn,Rainy,Very High,generated
+2025-09-28,Wheat,North,Premium,8000,45.44,Autumn,Hot,Very Low,generated
+2025-09-29,Fruits,West,Grade_A,3000,44.77,Autumn,Moderate,Medium,generated
+2025-09-29,Cotton,North,Grade_B,5000,54.33,Autumn,Sunny,Medium,generated
+2025-09-30,Fruits,West,Premium,1500,79.87,Autumn,Cold,Medium,generated
+2025-10-01,Soybean,Northeast,Grade_C,8000,25.47,Autumn,Rainy,Medium,generated
+2025-10-04,Sugarcane,Northeast,Grade_B,2000,28.03,Autumn,Sunny,Low,generated
+2025-10-05,Soybean,Central,Grade_A,2000,40.86,Autumn,Sunny,Low,generated
+2025-10-05,Vegetables,Central,Grade_A,800,34.18,Autumn,Humid,Low,generated
+2025-10-07,Wheat,West,Grade_A,8000,52.02,Autumn,Rainy,Medium,generated
+2025-10-09,Corn,South,Premium,1500,41.39,Autumn,Humid,Low,generated
+2025-10-12,Soybean,North,Grade_A,500,42.77,Autumn,Cloudy,Low,generated
+2025-10-13,Cotton,Central,Grade_B,500,50.39,Autumn,Sunny,Medium,generated
+2025-10-14,Corn,Central,Premium,5000,40.34,Autumn,Humid,Medium,generated
+2025-10-16,Rice,South,Grade_B,3000,53.89,Autumn,Moderate,Medium,generated
+2025-10-16,Vegetables,Northeast,Grade_B,800,23.84,Autumn,Hot,Low,generated
+2025-10-19,Soybean,North,Premium,800,84.92,Autumn,Moderate,High,generated
+2025-10-22,Pulses,West,Grade_B,8000,77.31,Autumn,Cold,Medium,generated
+2025-10-24,Cotton,Central,Grade_B,10000,39.25,Autumn,Sunny,Low,generated
+2025-10-25,Cotton,South,Grade_B,8000,52.2,Autumn,Cold,Medium,generated
+2025-10-25,Spices,South,Grade_B,10000,87.92,Autumn,Rainy,Low,generated
+2025-10-28,Rice,North,Grade_B,800,58.99,Autumn,Cold,High,generated
+2025-11-01,Vegetables,South,Grade_A,10000,33.67,Autumn,Cold,Low,generated
+2025-11-01,Cotton,South,Grade_C,500,37.72,Autumn,Hot,Medium,generated
+2025-11-03,Wheat,East,Grade_C,5000,28.07,Autumn,Sunny,High,generated
+2025-11-03,Soybean,Northeast,Grade_A,500,44.18,Autumn,Sunny,Medium,generated
+2025-11-07,Rice,Central,Grade_C,3000,37.43,Autumn,Sunny,High,generated
+2025-11-08,Wheat,South,Premium,3000,67.11,Autumn,Humid,Medium,generated
+2025-11-11,Spices,South,Grade_C,3000,60.0,Autumn,Moderate,Medium,generated
+2025-11-11,Soybean,East,Grade_B,500,38.36,Autumn,Rainy,Very High,generated
+2025-11-12,Fruits,East,Grade_B,10000,43.99,Autumn,Moderate,Medium,generated
+2025-11-12,Cotton,Northeast,Premium,5000,73.87,Autumn,Sunny,Low,generated
+2025-11-15,Sugarcane,Central,Grade_C,3000,22.22,Autumn,Rainy,High,generated
+2025-11-15,Sugarcane,North,Grade_B,3000,32.3,Autumn,Cloudy,Medium,generated
+2025-11-17,Sugarcane,Central,Grade_A,1500,33.79,Autumn,Cloudy,Low,generated
+2025-11-20,Rice,North,Grade_C,8000,32.5,Autumn,Sunny,Low,generated
+2025-11-20,Pulses,Central,Grade_B,1500,81.4,Autumn,Hot,High,generated
+2025-11-20,Cotton,Northeast,Grade_A,3000,55.28,Autumn,Hot,Medium,generated
+2025-11-21,Vegetables,East,Grade_B,1000,26.9,Autumn,Rainy,Low,generated
+2025-11-24,Corn,West,Grade_A,1500,33.16,Autumn,Sunny,Low,generated
+2025-11-24,Cotton,North,Grade_A,5000,85.76,Autumn,Rainy,High,generated
+2025-11-26,Soybean,Central,Grade_B,3000,43.43,Autumn,Sunny,Very High,generated
+2025-11-26,Fruits,North,Grade_B,3000,39.15,Autumn,Moderate,Low,generated
+2025-11-26,Spices,East,Grade_B,2000,90.07,Autumn,Sunny,Low,generated
+2025-11-28,Fruits,East,Grade_A,500,38.39,Autumn,Sunny,Low,generated
+2025-11-29,Fruits,Northeast,Premium,3000,66.03,Autumn,Hot,Medium,generated
+2025-12-03,Fruits,Northeast,Grade_A,8000,60.38,Winter,Sunny,High,generated
+2025-12-05,Spices,East,Grade_C,3000,65.27,Winter,Hot,High,generated
+2025-12-06,Wheat,Northeast,Grade_A,10000,50.62,Winter,Hot,High,generated
+2025-12-07,Rice,Northeast,Grade_A,8000,46.11,Winter,Moderate,Low,generated
+2025-12-08,Wheat,Northeast,Grade_B,800,28.25,Winter,Humid,Medium,generated
+2025-12-08,Corn,East,Premium,800,55.23,Winter,Cold,Very High,generated
+2025-12-08,Sugarcane,East,Premium,3000,61.33,Winter,Rainy,High,generated
+2025-12-09,Corn,Central,Grade_A,3000,31.34,Winter,Hot,Low,generated
+2025-12-09,Wheat,West,Grade_C,8000,27.89,Winter,Rainy,Medium,generated
+2025-12-10,Fruits,East,Grade_B,1500,42.82,Winter,Cloudy,Medium,generated
+2025-12-11,Wheat,North,Grade_B,5000,39.95,Winter,Humid,Very High,generated
+2025-12-11,Corn,West,Grade_A,3000,29.5,Winter,Hot,Low,generated
+2025-12-12,Corn,South,Grade_A,1000,38.84,Winter,Sunny,High,generated
+2025-12-13,Fruits,West,Grade_A,5000,68.19,Winter,Cold,High,generated
+2025-12-16,Fruits,East,Grade_A,800,61.94,Winter,Hot,Medium,generated
+2025-12-17,Spices,East,Grade_C,5000,60.0,Winter,Cloudy,Medium,generated
+2025-12-17,Vegetables,West,Grade_B,2000,29.95,Winter,Humid,High,generated
+2025-12-18,Vegetables,Northeast,Grade_A,5000,39.06,Winter,Hot,High,generated
+2025-12-23,Soybean,Central,Grade_C,1000,33.99,Winter,Cloudy,Very High,generated
+2025-12-24,Rice,Central,Grade_A,1500,60.24,Winter,Cold,High,generated
+2025-12-25,Cotton,South,Grade_A,800,58.01,Winter,Humid,Medium,generated
+2025-12-26,Wheat,North,Grade_C,3000,26.74,Winter,Humid,High,generated
+2025-12-26,Corn,Northeast,Grade_B,8000,23.64,Winter,Humid,Low,generated
+2025-12-28,Cotton,Central,Grade_A,500,70.99,Winter,Rainy,Very High,generated
+2025-12-31,Wheat,East,Premium,800,56.53,Winter,Cloudy,High,generated
+2026-01-02,Vegetables,North,Grade_A,500,37.0,Winter,Moderate,Medium,generated
+2026-01-03,Wheat,West,Grade_B,2000,32.67,Winter,Cloudy,Low,generated
+2026-01-04,Vegetables,West,Grade_B,1000,20.51,Winter,Hot,Medium,generated
+2026-01-09,Corn,West,Grade_A,1500,26.48,Winter,Rainy,Very Low,generated
+2026-01-12,Rice,West,Grade_A,1500,76.74,Winter,Cold,High,generated
+2026-01-12,Spices,North,Grade_C,1000,60.0,Winter,Moderate,Medium,generated
+2026-01-15,Sugarcane,Central,Grade_B,10000,36.04,Winter,Moderate,High,generated
+2026-01-18,Soybean,Northeast,Grade_A,2000,63.39,Winter,Hot,Very High,generated
+2026-01-18,Cotton,South,Premium,1000,70.35,Winter,Cloudy,Medium,generated
+2026-01-19,Fruits,North,Grade_C,1000,33.18,Winter,Hot,Medium,generated
+2026-01-19,Cotton,Northeast,Grade_A,10000,65.03,Winter,Sunny,High,generated
+2026-01-20,Fruits,North,Grade_A,5000,56.43,Winter,Moderate,Low,generated
+2026-01-21,Wheat,East,Premium,5000,53.98,Winter,Moderate,Medium,generated
+2026-01-21,Corn,Northeast,Grade_A,800,38.66,Winter,Hot,High,generated
+2026-01-21,Fruits,Northeast,Grade_A,1000,52.61,Winter,Rainy,Medium,generated
+2026-01-22,Soybean,East,Premium,500,58.58,Winter,Sunny,Low,generated
+2026-01-24,Sugarcane,West,Grade_C,1500,33.22,Winter,Cloudy,Very High,generated
+2026-01-28,Pulses,North,Grade_A,3000,76.03,Winter,Cold,Very Low,generated
+2026-01-29,Vegetables,South,Grade_A,1500,48.74,Winter,Cold,Medium,generated
+2026-01-31,Fruits,Central,Grade_B,10000,48.4,Winter,Cold,High,generated
+2026-01-31,Vegetables,East,Grade_A,1500,39.2,Winter,Cloudy,Very High,generated
+2026-02-04,Spices,East,Grade_C,800,60.0,Winter,Cloudy,Very High,generated
+2026-02-05,Wheat,Northeast,Premium,800,60.85,Winter,Rainy,Medium,generated
+2026-02-07,Rice,North,Grade_A,500,43.02,Winter,Cold,Very Low,generated
+2026-02-08,Rice,Northeast,Grade_B,3000,49.92,Winter,Moderate,Low,generated
+2026-02-11,Soybean,Northeast,Grade_A,1000,48.06,Winter,Moderate,Low,generated
+2026-02-12,Spices,North,Grade_B,800,97.76,Winter,Cold,Low,generated
+2026-02-15,Sugarcane,South,Premium,1500,61.3,Winter,Rainy,Medium,generated
+2026-02-16,Cotton,Central,Grade_B,500,48.11,Winter,Sunny,Medium,generated
+2026-02-19,Vegetables,Central,Grade_C,500,19.96,Winter,Cold,Low,generated

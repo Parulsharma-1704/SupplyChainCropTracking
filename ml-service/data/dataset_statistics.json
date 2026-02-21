@@ -1,0 +1,126 @@
+{
+  "total_records": 490,
+  "date_range": {
+    "start": "2023-01-15",
+    "end": "2026-02-19"
+  },
+  "crops": {
+    "total_types": 10,
+    "distribution": {
+      "Wheat": 66,
+      "Soybean": 59,
+      "Corn": 54,
+      "Fruits": 54,
+      "Rice": 53,
+      "Cotton": 53,
+      "Sugarcane": 49,
+      "Vegetables": 47,
+      "Pulses": 33,
+      "Spices": 22
+    }
+  },
+  "regions": {
+    "total_regions": 6,
+    "distribution": {
+      "Northeast": 86,
+      "South": 82,
+      "North": 81,
+      "Central": 81,
+      "East": 80,
+      "West": 80
+    }
+  },
+  "quality_grades": {
+    "distribution": {
+      "Grade_A": 177,
+      "Grade_B": 146,
+      "Premium": 103,
+      "Grade_C": 64
+    }
+  },
+  "price_analysis": {
+    "mean": 48.672816326530615,
+    "median": 44.295,
+    "std_dev": 20.196757353446788,
+    "min": 17.5,
+    "max": 112.33,
+    "by_crop": {
+      "Corn": {
+        "count": 54,
+        "mean": 32.745,
+        "min": 17.5,
+        "max": 55.23
+      },
+      "Cotton": {
+        "count": 53,
+        "mean": 60.052452830188685,
+        "min": 30.0,
+        "max": 111.82
+      },
+      "Fruits": {
+        "count": 54,
+        "mean": 53.55055555555555,
+        "min": 27.5,
+        "max": 100.9
+      },
+      "Pulses": {
+        "count": 33,
+        "mean": 74.48818181818183,
+        "min": 42.5,
+        "max": 102.11
+      },
+      "Rice": {
+        "count": 53,
+        "mean": 54.073396226415085,
+        "min": 32.5,
+        "max": 90.13
+      },
+      "Soybean": {
+        "count": 59,
+        "mean": 45.58305084745762,
+        "min": 25.47,
+        "max": 84.92
+      },
+      "Spices": {
+        "count": 22,
+        "mean": 84.20681818181816,
+        "min": 60.0,
+        "max": 112.33
+      },
+      "Sugarcane": {
+        "count": 49,
+        "mean": 37.30122448979592,
+        "min": 20.0,
+        "max": 74.62
+      },
+      "Vegetables": {
+        "count": 47,
+        "mean": 31.27021276595745,
+        "min": 18.57,
+        "max": 66.05
+      },
+      "Wheat": {
+        "count": 66,
+        "mean": 43.083787878787874,
+        "min": 22.5,
+        "max": 91.14
+      }
+    }
+  },
+  "seasonal_analysis": {
+    "seasons": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Monsoon",
+      "Autumn"
+    ],
+    "avg_price_by_season": {
+      "Autumn": 48.22584070796461,
+      "Monsoon": 46.46641791044776,
+      "Spring": 49.865344827586206,
+      "Summer": 47.6,
+      "Winter": 50.37483870967741
+    }
+  }
+}
