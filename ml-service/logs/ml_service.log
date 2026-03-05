@@ -12,3 +12,19 @@
 2026-02-15 01:09:41 - ml_service - INFO - ML model loaded successfully
 2026-02-15 01:33:00 - ml_service - INFO - Prediction request received: {'crop_type': 'Wheat', 'region': 'North', 'quality': 'Premium', 'quantity_kg': 1000, 'season': 'Winter', 'weather': 'Normal', 'market_demand': 'Medium'}
 2026-02-15 01:33:02 - ml_service - INFO - Prediction result: {'success': True, 'predicted_price': 47.39, 'confidence': 0.85, 'method': 'ml_model', 'currency': 'INR', 'unit': 'per kg', 'total_value': 47390.18, 'total_value_unit': 'for 1000.0 kg', 'input_features': {'crop_type': 'Wheat', 'region': 'North', 'quality': 'Premium', 'quantity_kg': 1000.0, 'season': 'Winter', 'weather': 'Normal', 'market_demand': 'Medium', 'year': 2026, 'month': 2}, 'timestamp': '2026-02-15T01:33:02.794862'}
+2026-02-22 21:01:19 - ml_service - INFO - ML model loaded successfully
+2026-02-22 21:01:30 - ml_service - INFO - ML model loaded successfully
+2026-02-22 22:00:40 - ml_service - INFO - ML model loaded successfully
+2026-02-22 22:00:52 - ml_service - INFO - ML model loaded successfully
+2026-03-02 21:56:41 - ml_service - INFO - ML model loaded successfully
+2026-03-02 21:56:52 - ml_service - INFO - ML model loaded successfully
+2026-03-03 21:45:14 - ml_service - INFO - ML model loaded successfully
+2026-03-03 21:45:25 - ml_service - INFO - ML model loaded successfully
+2026-03-04 23:13:37 - ml_service - INFO - ML model loaded successfully
+2026-03-04 23:13:43 - ml_service - INFO - ML model loaded successfully
+2026-03-04 23:21:57 - ml_service - INFO - ML model loaded successfully
+2026-03-04 23:22:03 - ml_service - INFO - ML model loaded successfully
+2026-03-04 23:24:29 - ml_service - INFO - ML model loaded successfully
+2026-03-04 23:24:34 - ml_service - INFO - ML model loaded successfully
+2026-03-05 22:57:27 - ml_service - INFO - ML model loaded successfully
+2026-03-05 22:57:39 - ml_service - INFO - ML model loaded successfully

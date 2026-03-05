@@ -15,17 +15,17 @@ import { successResponse, errorResponse } from '../utils/responseUtils.js';
 
 const router = express.Router();
 
-// All routes are protected
-router.use(protect);
-
-// Price routes
+// PUBLIC ROUTES - Anyone can view prices
+// Get price history
 router.get('/', getPriceHistory);
-router.get('/predict', getPricePrediction);
-router.get('/trends', getPriceTrends);
-router.post('/', restrictTo('admin'), addPriceData);
 
-// ML Service Integration Routes
-// Get ML service health status
+// Get price prediction from ML service
+router.get('/predict', getPricePrediction);
+
+// Get price trends
+router.get('/trends', getPriceTrends);
+
+// Get ML service health status (public)
 router.get('/ml/health', async (req, res) => {
   try {
     const health = await checkMLHealth();
@@ -42,7 +42,7 @@ router.get('/ml/health', async (req, res) => {
   }
 });
 
-// Get ML service information
+// Get ML service information (public)
 router.get('/ml/info', async (req, res) => {
   try {
     const info = await getMLServiceInfo();
@@ -59,8 +59,12 @@ router.get('/ml/info', async (req, res) => {
   }
 });
 
+// PROTECTED ROUTES - Admin only
+// Add price data (admin only)
+router.post('/', protect, restrictTo('admin'), addPriceData);
+
 // Retrain ML model (admin only)
-router.post('/ml/retrain', restrictTo('admin'), async (req, res) => {
+router.post('/ml/retrain', protect, restrictTo('admin'), async (req, res) => {
   try {
     console.log('🔄 Starting ML model retraining...');
     const result = await retrainMLModel();

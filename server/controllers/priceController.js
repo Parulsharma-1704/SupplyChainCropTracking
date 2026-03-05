@@ -18,15 +18,17 @@ export const getPriceHistory = async (req, res) => {
       })
     };
 
+    console.log('🔍 Price Query:', query);
     const prices = await PriceHistory.find(query)
       .sort({ date: -1 })
       .limit(100);
 
+    console.log(`✅ Found ${prices.length} prices`);
     return successResponse(res, 200, 'Price history retrieved successfully', {
       prices
     });
   } catch (err) {
-    console.error(err);
+    console.error('❌ Price Controller Error:', err.message);
     return errorResponse(res, 500, 'Failed to retrieve price history');
   }
 };

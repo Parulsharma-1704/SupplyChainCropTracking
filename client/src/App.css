@@ -1,0 +1,79 @@
+@keyframes slideLeftToRight {
+    0% {
+        transform: translateX(-20px);
+        opacity: 0.5;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(20px);
+        opacity: 0.5;
+    }
+}
+
+@keyframes textPulse {
+
+    0%,
+    100% {
+        opacity: 0.8;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.slide-left-right {
+    animation: slideLeftToRight 1.4s infinite ease-in-out;
+}
+
+.pulse {
+    animation: textPulse 1.5s ease-in-out infinite;
+}
+
+.gradient-about {
+    background: linear-gradient(to bottom, #f9fff7, #fdfefb, #ffffff);
+}
+
+.marquee-container {
+    overflow: hidden;
+    width: 100%;
+    min-height: 280px;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    padding: 2rem 0;
+}
+
+.marquee {
+    display: flex;
+    gap: 2rem;
+    animation: marquee 20s linear infinite;
+    width: fit-content;
+    padding: 0 2rem;
+}
+
+.marquee>div {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+}
+
+.marquee:hover {
+    animation-play-state: paused;
+}
